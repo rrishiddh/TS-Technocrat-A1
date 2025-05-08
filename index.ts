@@ -50,10 +50,6 @@ function processValue(value: string | number): number {
   }
 }
 
-interface Product {
-  name: string;
-  price: number;
-}
 
 function getMostExpensiveProduct(products: Product[]): Product | null {
   if (products.length === 0) {
@@ -62,15 +58,6 @@ function getMostExpensiveProduct(products: Product[]): Product | null {
 
   const sortedArray = products.sort((min, max) => max.price - min.price);
   return sortedArray[0];
-}
-enum Day {
-  Monday,
-  Tuesday,
-  Wednesday,
-  Thursday,
-  Friday,
-  Saturday,
-  Sunday,
 }
 
 function getDayType(day: Day): string {
