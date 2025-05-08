@@ -1,6 +1,6 @@
 # Blog Post
 
-Here are 2 common questions of TypeScript:
+Here are 3 common questions of TypeScript:
 
 ### 01 - How does TypeScript help in improving code quality and project maintainability?
  TypeScript is basically a superset of JavaScript. So TypeScript includes all features of JS and added additional feature like type declaration- which catches type-related errors during development, preventing runtime bugs. It actually helps the developer to maintain and understand the type of data specially in large level project. Also the code editor provides more accurate suggestions and catches the error quickly.
